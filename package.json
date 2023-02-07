@@ -1,0 +1,21 @@
+{
+  "name": "netflix-render",
+  "version": "1.0.0",
+  "description": "Website Link: https://netflix-clone-by-ofenos.herokuapp.com/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build":"cd server && npm install && cd ../client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FurkannnAtes/MERN-NETFLIX-CLONE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FurkannnAtes/MERN-NETFLIX-CLONE/issues"
+  },
+  "homepage": "https://github.com/FurkannnAtes/MERN-NETFLIX-CLONE#readme"
+}

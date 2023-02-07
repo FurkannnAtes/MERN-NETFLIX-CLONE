@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    overflow-x: initial !important;
+  }
+
+  body{
+    background-color: black;
+  }
+
+/* Home Swiper Customize */
+.multiMovieSwiper .swiper-button-prev,
+.multiMovieSwiper .swiper-button-next{
+    background-color: rgba(80, 80, 80, 0.623);
+    height: 120px;
+    top: 22px;
+    width: 40px;
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    color: white;
+    z-index: 1 !important;
+    
+}
+.multiMovieSwiper .swiper-button-prev{
+    left: -50px;
+}
+.multiMovieSwiper .swiper-button-next{
+    right: -50px;
+}
+@media only screen and (max-width: 768px) {
+/* Home Swiper Customize */
+.multiMovieSwiper .swiper-button-prev,
+.multiMovieSwiper .swiper-button-next{
+   
+    width: 25px;
+   
+}
+    .multiMovieSwiper .swiper-button-prev{
+        left: -35px;
+    }
+    .multiMovieSwiper .swiper-button-next{
+        right: -35px;
+    }
+}
+.multiMovieSwiper .swiper-button-prev:after,
+.multiMovieSwiper .swiper-button-next:after{
+    font-size: 1rem;
+}
+
+/* Slide hover animation */
+.swiper-slide-active .swiper-card:hover{
+    transform-origin: left center;
+}
+.swiper-slide-active + div + div + div + div + div  .swiper-card:hover{
+    transform-origin: right center;
+}
+.swiper-slide-active + div + div + div + div .swiper-card:hover{
+    transform-origin: center center !important;
+}
+@media only screen and (min-width: 768px) {
+    /* Slide hover animation */
+.swiper-slide-active .swiper-card:hover{
+    transform-origin: left center;
+}
+.swiper-slide-active + div + div + div + div .swiper-card:hover{
+    transform-origin: right center;
+}
+.swiper-slide-active + div + div .swiper-card:hover{
+    transform-origin: center center !important;
+}
+
+}
+@media only screen and (min-width: 500px) {
+
+    
+
+.swiper-slide-active + div + div .swiper-card:hover{
+    transform-origin: right center;
+}
+.swiper-slide-active + div .swiper-card:hover{
+    transform-origin: center center !important;
+}
+
+
+}
+
+
+@media only screen and (min-width: 0px) {
+
+    
+    .swiper-slide-active + div .swiper-card:hover{
+        transform-origin: right center;
+    }
+    
+}
+
+
+
+/* Details Swiper Customize */
+.detailsCastSwiper .swiper-button-prev,
+.detailsCastSwiper .swiper-button-next{ 
+    background-color: rgba(80, 80, 80, 0.623);
+    height: 100%;
+    top: 22px;
+    width: 40px;
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    color: white;
+    
+}
+.detailsCastSwiper .swiper-button-prev{
+    left: 0;
+}
+.detailsCastSwiper .swiper-button-next{
+    right: 0;
+}
+.detailsCastSwiper .swiper-button-prev:after,
+.detailsCastSwiper .swiper-button-next:after{
+    font-size: 2rem;
+}
