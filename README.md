@@ -1,6 +1,6 @@
 # MERN-NETFLIX-CLONE
 
-Website Link: https://netflix-clone-by-ofenos.herokuapp.com/
+Website Link: https://netflix-clone-by-ofenos-frontend.onrender.com/
 
 # Technologies used
 <li>React</li>
